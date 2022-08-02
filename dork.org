@@ -1,0 +1,22 @@
+#+TITLE: Dork
+
+This fragile org table calculates the total average of every course
+you provide.
+
+If a cell appears as empty, it means that it doesn't apply, this also
+means that the percentages will be adjusted to reflect how the school
+calculates the average of that course.
+
+#+begin_src org :eval never
+| MATIERE   | COEF | CC | TP | EXAM | MOYENNE | MOY * COEF | TOTAL |
+|-----------+------+----+----+------+---------+------------+-------|
+| Course I  |    2 | 18 |    |   20 |    19.2 |       38.4 |       |
+| Course II |    3 | 17 |    |   18 |    17.6 |       52.8 |       |
+|-----------+------+----+----+------+---------+------------+-------|
+| TOTAL     |    5 |    |    |      |     nan |       91.2 | 18.24 |
+#+TBLFM: $6 = if("$3" != "nan", if("$4" != "nan", 0.3*$3+0.2*$4+0.5*$5, 0.4*$3+0.6*$5), if("$4" == "nan", $5, 0.3*$4+0.7*$5));E::@>$2=vsum(@I..II)::$7=$2*$6::@>$7=vsum(@I..II)::@>$8=@>$7/@>$2
+#+end_src
+
+You should preferably create two tables, one for every semester. When
+you come to know the grade of every course, you may create a single
+table out of them.
