@@ -45,4 +45,4 @@ gratis.
 
 * Copying
 
-The source code is licensed under the [[file:LICENSE][GPLv3]].
+The source code is licensed under the [[file:COPYING][GPLv3]].
