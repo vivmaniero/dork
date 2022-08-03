@@ -50,7 +50,7 @@ apply your formula.
 
 Place your cursor on the line containing ~TBLFM~, and hit =C-c C-c=,
 this will evaluate the formula and overwrite the table. You should see
-~12.9~ appear in the AVG column -- the remaining columns, except for
+~12.9~ appear in the ~AVG~ column -- the remaining columns, except for
 ~TP~, should be have been automatically assigned ~0~.
 
 #+BEGIN_SRC org
