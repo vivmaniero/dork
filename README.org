@@ -1,0 +1,21 @@
+Hey there!
+
+This repository acts as a backup for a [[file:dork.org][really neat org table formula]]
+I wrote a little while ago, one that calculates the total average of
+all your classes.
+
+This is targeted towards users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
+
+If you’re unfamiliar with either, you should check them out, they're
+very powerful.
+
+* Questions No One Asked
+** "Why not JavaScript?"
+I've seen the solutions written by other students. They're mediocre,
+to say the least. I've achieved with *one line* what they sought to
+answer with fifty, all whilst preserving a copy of my grades offline.
+** "Why not Excel?"
+I tend to avoid heavy software such as the Microsoft Office suite.
+Further, I just don't particularly enjoy investing time in learning
+Microsoft's closed source technologies, nor do intend to shell out
+several hundred dollars annually for what I can do *gratis*.
