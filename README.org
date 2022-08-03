@@ -2,14 +2,25 @@
 
 [[file:images/dork.jpg]]
 
-This repository acts as a backup for a [[file:dork.org][really neat org table formula]] I
-wrote a little while ago, one that calculates the total average of all
-your classes.
+This repository /currently/ acts as a backup for a [[file:dork.org][really neat org
+table formula]] I wrote a little while ago, one that calculates the
+total average of all your classes.
 
 This is targeted towards users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
 
 Does that ring a bell? No, go on and check them out, they're very
 powerful.
+
+* Notice
+
+[[file:dork.el][dork.el]] is pre-alpha software, it is under heavy development, and is
+subject to change in significant ways - it is best you avoid using it,
+unless you plan on giving me a hand in the design phase.
+
+[[file:dork.org][dork.org]] will remain unaffected whilst I rewrite the relevant ~TBLFM~
+in a more elegant and maintainable manner. Once I've achieved that,
+the aforementioned ~TBLFM~ will transition into using internal
+functions offered by dork.el.
 
 * Questions No One Asked
 ** "Why not JavaScript?"
@@ -21,3 +32,8 @@ I tend to avoid heavy software such as the Microsoft Office suite.
 Further, I just don't particularly enjoy investing time in learning
 Microsoft's closed source technologies, nor do intend to shell out
 tens of dollars annually for what I can do *gratis*.
+
+
+* Copying
+
+The source code is licensed under the [[file:LICENSE][GPLv3]].
