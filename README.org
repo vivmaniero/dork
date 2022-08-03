@@ -1,8 +1,10 @@
-Hey there!
+#+TITLE: Dork
 
-This repository acts as a backup for a [[file:dork.org][really neat org table formula]]
-I wrote a little while ago, one that calculates the total average of
-all your classes.
+[[file:images/dork.jpg]]
+
+This repository acts as a backup for a [[file:dork.org][really neat org table formula]] I
+wrote a little while ago, one that calculates the total average of all
+your classes.
 
 This is targeted towards users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
 
