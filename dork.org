@@ -121,4 +121,5 @@ reward for your patience and attentiveness.
 
 * Credits
 
+- [[https://github.com/grtcdr][Authored]] by Aziz Ben Ali.
 - [[https://github.com/thomasf/solarized-css][Theme]] by Thomas Frössman.
