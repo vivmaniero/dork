@@ -1,6 +1,8 @@
-#+TITLE: Dork
-
-* Get started
+#+TITLE: vivmaniero/dork.org
+#+AUTHOR: Aziz Ben Ali
+#+OPTIONS: toc:nil num:nil
+#+EXPORT_FILE_NAME: public/index.html
+#+HTML_HEAD: <link href="https://thomasf.github.io/solarized-css/solarized-light.min.css" rel="stylesheet"></link>
 
 This fragile org table formula calculates the total average of every course
 you provide.
@@ -115,3 +117,7 @@ table out of them.
 
 Oh, and congratulations! Go get you a coffee as a reward for your
 patience and attentiveness.
+
+* Credits
+
+- [[https://github.com/thomasf/solarized-css][Theme]] by Thomas Frössman.
