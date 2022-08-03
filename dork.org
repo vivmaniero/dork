@@ -4,7 +4,7 @@
 #+EXPORT_FILE_NAME: public/index.html
 #+HTML_HEAD: <link href="solarized.css" rel="stylesheet"></link>
 
-* Dork - a tool, not the insult
+* Dork - the tool, not the insult
 
 This fragile Org table formula calculates the total average of every course
 you provide.
