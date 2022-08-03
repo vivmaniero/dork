@@ -3,9 +3,7 @@
 
 #+html: <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Coloured-dorking.png" align="right" width="40%" height="80%">
 
-This repository /currently/ acts as a backup for a [[file:dork.org][really neat org
-table formula]] I wrote a little while ago, one that calculates the
-total average of all my courses.
+This repository /currently/ acts as a backup for a [[https://vivmaniero.github.io/dork][short and sweet org table formula]] I wrote a little while ago, it helps me calculate the total average of all my courses.
 
 This is targeted towards students of ESPRIT and users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
 
@@ -20,7 +18,7 @@ subject to change in significant ways, so hold your horses!
 functions offered by dork.el, as soon as the development phase is over
 -- it will however remain unaffected during this period.
 
-* Questions No One Asked
+* FAQ
 ** "Why Elisp?"
 Beneath Emacs lies a very powerful programming language.
 

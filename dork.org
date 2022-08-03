@@ -1,4 +1,4 @@
-#+TITLE: vimaniero/dork: a tool, not the insult
+#+TITLE: Dork - the tool, not the insult
 #+AUTHOR: Aziz Ben Ali
 #+OPTIONS: toc:nil num:nil title:nil
 #+EXPORT_FILE_NAME: public/index.html
