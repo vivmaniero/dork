@@ -6,8 +6,8 @@ all your classes.
 
 This is targeted towards users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
 
-If you’re unfamiliar with either, you should check them out, they're
-very powerful.
+Does that ring a bell? No, go on and check them out, they're very
+powerful.
 
 * Questions No One Asked
 ** "Why not JavaScript?"
