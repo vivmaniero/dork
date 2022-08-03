@@ -20,4 +20,4 @@ answer with fifty, all whilst preserving a copy of my grades offline.
 I tend to avoid heavy software such as the Microsoft Office suite.
 Further, I just don't particularly enjoy investing time in learning
 Microsoft's closed source technologies, nor do intend to shell out
-several hundred dollars annually for what I can do *gratis*.
+tens of dollars annually for what I can do *gratis*.
