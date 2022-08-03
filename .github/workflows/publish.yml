@@ -20,7 +20,7 @@ jobs:
       run: touch public/.nojekyll
 
     - name: Robots
-      run: echo "vivmaniero.grtcdr.tn" > public/CNAME
+      run: echo "vivmaniero.github.io" > public/CNAME
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
