@@ -2,7 +2,7 @@
 #+AUTHOR: Aziz Ben Ali
 #+OPTIONS: toc:nil num:nil title:nil
 #+EXPORT_FILE_NAME: public/index.html
-#+HTML_HEAD: <link href="/solarized.css" rel="stylesheet"></link>
+#+HTML_HEAD: <link href="solarized.css" rel="stylesheet"></link>
 
 * Dork - a tool, not the insult
 
