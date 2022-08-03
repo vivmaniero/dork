@@ -14,25 +14,34 @@ powerful.
 * Notice
 
 [[file:dork.el][dork.el]] is pre-alpha software, it is under heavy development, and is
-subject to change in significant ways - it is best you avoid using it,
-unless you plan on giving me a hand in the design phase.
+subject to change in significant ways, so hold your horses!
 
-[[file:dork.org][dork.org]] will remain unaffected whilst I rewrite the relevant ~TBLFM~
-in a more elegant and maintainable manner. Once I've achieved that,
-the aforementioned ~TBLFM~ will transition into using internal
-functions offered by dork.el.
+[[file:dork.org][dork.org]] although usable, will transition to use the internal
+functions offered by dork.el, as soon as the development phase is over
+-- it will however remain unaffected during this period.
 
 * Questions No One Asked
+** "Why Elisp?"
+Beneath Emacs lies a very powerful programming language.
+
+As soon as Emacs had begun to grow on me, I noticed a trend -- one that
+had me transition my tasks, which I previously used to perform within
+my shell, in the comfort of the command-line, to a new, yet equally
+coherent environment -- /Emacs/.
+
+I am now a relatively intermediate user of Emacs, and I have slowly
+but steadily overcome the fear of Elisp, recognizing it as the
+electricity that powers my artificial home.
 ** "Why not JavaScript?"
 I've seen the solutions written by other students. They're mediocre,
-to say the least. I've achieved with *one line* what they sought to
-answer with fifty, all whilst preserving a copy of my grades offline.
+to say the least.
 ** "Why not Excel?"
 I tend to avoid heavy software such as the Microsoft Office suite.
-Further, I just don't particularly enjoy investing time in learning
-Microsoft's closed source technologies, nor do intend to shell out
-tens of dollars annually for what I can do *gratis*.
 
+Further, I don't find much joy investing lots of time in learning
+closed source technologies -- and aeons upon aeons perfecting them, nor
+do intend to shell out tens of dollars annually for what I can do
+gratis.
 
 * Copying
 
