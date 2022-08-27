@@ -68,11 +68,6 @@
 	     :html-preamble nil
 	     :html-postamble nil
 	     :html-head-include-default-style nil)
-       (list "stylesheets"
-	     :base-extension "css"
-	     :base-directory "stylesheets"
-	     :publishing-directory "public/stylesheets"
-	     :publishing-function 'org-publish-attachment)
        (list "all"
 	     :components (list "content"
 			       "stylesheets"))))
