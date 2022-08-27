@@ -31,7 +31,8 @@
 
 ;; Org caching:
 
-(setq org-export-time-stamp-file nil)
+(setq org-export-time-stamp-file nil
+      org-publish-cache nil)
 
 ;; Org source blocks:
 
