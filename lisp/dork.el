@@ -41,16 +41,13 @@ CC and TP are optional, but their absence affects how calculations are done."
   (let ((course (read-string "Course: " nil nil nil nil))
 	(cc (read-string "Continuous Assessment: " nil nil nil nil))
 	(tp (read-string "Practicum: " nil nil nil nil))
-	(ex (read-string "Exam: " nil nil nil nil))
-	(grade-range (number-sequence 0 20))
-	(grade-out-of-range-error (message "Grade can neither be negative, nor surpass 20."))
-	(omitted-exam-error (message "Grade of exam cannot be omitted.")))
+	(ex (read-string "Exam: " nil nil nil nil)))
     (message
      (format "AVG of %s: %s"
 	     (upcase course)
 	     (dork-compute-avg-from-string cc tp ex)))))
 
-(defun dork-compute-avg-from-string (cc tp ex)
+(defun dork-compute-avg-from-table (cc tp ex)
   "Computes the average of the provided CC, TP and EX
 attempting to parse each number from its respective string.
 This is helpful when working with Org tables."
@@ -60,3 +57,8 @@ This is helpful when working with Org tables."
     (cond ((= cc 0) (dork-compute-avg nil tp ex))
 	  ((= tp 0) (dork-compute-avg cc nil ex))
 	  (t (dork-compute-avg cc tp ex)))))
+
+(defun dork-multiply-avg-by-coeff-from-table (coeff avg)
+  (let ((coeff (string-to-number coeff))
+	(avg (string-to-number avg)))
+    (* coeff avg)))

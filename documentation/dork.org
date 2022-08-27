@@ -1,10 +1,6 @@
-#+TITLE: Dork - the tool, not the insult
+#+TITLE: Dork - the tool (and the insult)
 #+AUTHOR: Aziz Ben Ali
-#+OPTIONS: toc:nil num:nil title:nil
-#+EXPORT_FILE_NAME: public/index.html
-#+HTML_HEAD: <link href="solarized.css" rel="stylesheet"></link>
-
-* Dork - the tool, not the insult
+#+HTML_HEAD: <link href="/stylesheets/solarized.light.css" rel="stylesheet"></link>
 
 This fragile Org table formula calculates the total average of every course
 you provide.
