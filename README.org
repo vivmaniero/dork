@@ -3,7 +3,7 @@
 
 #+html: <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Coloured-dorking.png" align="right" width="40%" height="80%">
 
-This repository /currently/ acts as a backup for a [[https://vivmaniero.github.io/dork][short and sweet org table formula]] I wrote a little while ago, it helps me calculate the total average of all my courses.
+This repository /currently/ acts as a backup for a [[https://vm.grtcdr.tn][short and sweet org table formula]] I wrote a little while ago, it helps me calculate the total average of all my courses.
 
 This is targeted towards students of ESPRIT and users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
 
@@ -11,10 +11,10 @@ Do they ring a bell? -- No? Go on and check them out then, [[https://emacsrocks.
 
 * Notice
 
-[[file:dork.el][dork.el]] is pre-alpha software, it is under heavy development, and is
+[[file:lisp/dork.el][dork.el]] is pre-alpha software, it is under heavy development, and is
 subject to change in significant ways, so hold your horses!
 
-[[file:dork.org][dork.org]] although usable, will transition to use the internal
+[[file:documentation/dork.org][dork.org]] although usable, will transition to use the internal
 functions offered by dork.el, as soon as the development phase is over
 -- it will however remain unaffected during this period.
 
