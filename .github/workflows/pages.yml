@@ -38,7 +38,7 @@ jobs:
         run: make
 
       - name: Configure CNAME
-        run: touch CNAME && echo "vm.grtcdr.tn" > CNAME
+        run: touch CNAME && echo "vm.grtcdr.tn" > public/CNAME
 
       - name: Upload website blob
         uses: actions/upload-pages-artifact@v1
