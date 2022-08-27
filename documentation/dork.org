@@ -1,6 +1,7 @@
 #+TITLE: Dork - the tool (and the insult)
 #+AUTHOR: Aziz Ben Ali
 #+HTML_HEAD: <link href="/stylesheets/solarized.light.css" rel="stylesheet"></link>
+#+HTML_HEAD: <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/103789781">
 
 This fragile Org table formula calculates the total average of every course
 you provide.
