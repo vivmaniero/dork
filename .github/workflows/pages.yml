@@ -52,6 +52,9 @@ jobs:
     needs: build
 
     steps:
+      - name: Configure CNAME
+        run: touch CNAME && echo "vm.grtcdr.tn" > CNAME
+        
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
