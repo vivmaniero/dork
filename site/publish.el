@@ -69,5 +69,4 @@
 	     :html-postamble nil
 	     :html-head-include-default-style nil)
        (list "all"
-	     :components (list "content"
-			       "stylesheets"))))
+	     :components (list "content"))))
