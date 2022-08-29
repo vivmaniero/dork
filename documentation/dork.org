@@ -1,5 +1,6 @@
 #+TITLE: dork.org - the formula (and the insult)
 #+AUTHOR: Aziz Ben Ali
+#+EXPORT_FILE_NAME: index
 #+HTML_HEAD: <link href="https://grtcdr.tn/stylesheets/main.css" rel="stylesheet"></link>
 #+HTML_HEAD: <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/103789781">
 
