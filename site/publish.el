@@ -49,25 +49,35 @@
 (setq user-full-name "Aziz Ben Ali"
       user-mail-address "ba.tahaaziz@gmail.com")
 
+;; Snippets:
+
+(defun read-snippet (directory file)
+  "Read a snippet from the snippets directory."
+  (with-temp-buffer
+    (insert-file-contents
+     (file-name-concat "snippets" directory file))
+    (buffer-string)))
+
 ;;; Project specification:
 
 (setq org-publish-project-alist
-      (list
-       (list "content"
-	     :base-extension "org"
-	     :base-directory "documentation"
-	     :publishing-directory "public"
-	     :publishing-function 'org-html-publish-to-html
-	     :exclude (regexp-opt '("README.org"))
-	     :section-numbers nil
-	     :with-title t
-	     :with-toc nil
-	     :with-timestamps nil
-	     :with-num nil
-	     :html-doctype "html5"
-	     :html-html5-fancy t
-	     :html-preamble nil
-	     :html-postamble nil
-	     :html-head-include-default-style nil)
-       (list "all"
-	     :components (list "content"))))
+      (let ((preamble (read-snippet "preamble" "content.html")))
+	(list
+	 (list "content"
+	       :base-extension "org"
+	       :base-directory "documentation"
+	       :publishing-directory "public"
+	       :publishing-function 'org-html-publish-to-html
+	       :exclude (regexp-opt '("README.org"))
+	       :section-numbers nil
+	       :with-title t
+	       :with-toc nil
+	       :with-timestamps nil
+	       :with-num nil
+	       :html-doctype "html5"
+	       :html-html5-fancy t
+	       :html-preamble preamble
+	       :html-postamble nil
+	       :html-head-include-default-style nil)
+	 (list "all"
+	       :components (list "content")))))
