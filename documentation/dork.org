@@ -1,5 +1,4 @@
 #+TITLE: dork.org - the formula (and the insult)
-#+AUTHOR: Aziz Ben Ali
 #+EXPORT_FILE_NAME: index
 #+HTML_HEAD: <link href="https://grtcdr.tn/stylesheets/main.css" rel="stylesheet"></link>
 #+HTML_HEAD: <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/103789781">
@@ -113,9 +112,3 @@ Keep in mind, the only columns we need to populate are ~MATIERE~,
 You should preferably create two tables, one for every semester. When
 you come to know the grade of every course, you may create a single
 table out of them.
-
-Congratulations! Consider getting yourself a cup of hot coffee as a
-reward for your patience and attentiveness.
-
-Feel free to shoot me an [[mailto:tahaaziz.benali@esprit.tn][email]] if you have any sort of feedback you'd
-like to communicate.
