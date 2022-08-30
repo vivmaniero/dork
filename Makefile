@@ -8,4 +8,5 @@ publish: site/publish.el
 # Recipe to clean any artifacts produced by the previous recipe
 clean:
 	@echo "Cleaning up..."
+	@rm -rvf .timestamps/
 	@rm -rvf public/

@@ -32,7 +32,11 @@
 ;; Org caching:
 
 (setq org-export-time-stamp-file nil
-      org-publish-cache nil)
+      org-publish-timestamp-directory ".timestamps/")
+
+;; Org content metadata:
+
+(setq org-html-metadata-timestamp-format "%B %d, %Y")
 
 ;; Org source blocks:
 
@@ -47,22 +51,23 @@
 ;; Metadata:
 
 (setq user-full-name "Aziz Ben Ali"
-      user-mail-address "ba.tahaaziz@gmail.com")
+      user-mail-address "tahaaziz.benali@esprit.tn")
 
 ;; Snippets:
 
-(defun read-snippet (directory file)
+(defun read-snippet (file)
   "Read a snippet from the snippets directory."
   (with-temp-buffer
     (insert-file-contents
-     (file-name-concat "snippets" directory file))
+     (file-name-concat "snippets" file))
     (buffer-string)))
 
 ;;; Project specification:
 
 (setq org-publish-project-alist
-      (let ((preamble (read-snippet "preamble" "content.html")))
+      (let ((preamble (read-snippet "preamble.html")))
 	(list
+	 (list "all" :components (list "content"))
 	 (list "content"
 	       :base-extension "org"
 	       :base-directory "documentation"
@@ -78,6 +83,4 @@
 	       :html-html5-fancy t
 	       :html-preamble preamble
 	       :html-postamble nil
-	       :html-head-include-default-style nil)
-	 (list "all"
-	       :components (list "content")))))
+	       :html-head-include-default-style nil))))
