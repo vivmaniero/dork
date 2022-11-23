@@ -1,55 +1,7 @@
 #+TITLE: Dork
-#+AUTHOR: Aziz Ben Ali
 
-#+html: <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Coloured-dorking.png" align="right" width="40%" height="80%">
-
-This repository /currently/ acts as a backup for a [[https://vm.grtcdr.tn/dork][short and sweet org table formula]] I wrote a little while ago, it helps me calculate the total average of all my courses.
-
-This is targeted towards students of ESPRIT and users of [[https://www.gnu.org/software/emacs/][Emacs]] and [[https://orgmode.org/][Org]].
-
-Do they ring a bell? -- No? Go on and check them out then, [[https://emacsrocks.com/][they're very powerful]].
-
-* Notice
-
-[[file:lisp/dork.el][dork.el]] is pre-alpha software, it is under heavy development, and is
+[[file:dork.el][dork]] is pre-alpha software, it is under heavy development, and is
 subject to change in significant ways, so hold your horses!
-
-[[file:documentation/dork.org][dork.org]] although usable, will transition to use the internal
-functions offered by dork.el, as soon as the development phase is over
--- it will however remain unaffected during this period.
-
-* FAQ
-** "Why Elisp?"
-Beneath Emacs lies a very powerful programming language.
-
-As soon as Emacs had begun to grow on me, I noticed a trend -- one that
-had me transition my tasks, which I previously used to perform within
-my shell, in the comfort of the command-line, to a new, yet equally
-coherent environment -- /Emacs/.
-
-I am now a relatively intermediate user of Emacs, and I have slowly
-but steadily overcome the fear of Elisp, recognizing it as the
-electricity that powers my artificial home.
-** "Why not JavaScript?"
-I've seen the solutions written by other students. They're mediocre,
-to say the least.
-
-The mediocrity of such solutions is not a consequence of the lack of
-skills of their authors, far from it, actually. It's simply because
-the website which students are forced to go through is, to put it
-bluntly, a flaming bag of shit.
-
-It doesn't respect today's standards that qualify it as a decent web
-portal. Hell, it doesn't even respect a single standard set two
-decades ago, when the internet and web technologies were still at
-their infancy.
-** "Why not Excel?"
-I tend to avoid heavy software such as the Microsoft Office suite.
-
-Further, I don't find much joy investing lots of time in learning
-closed source technologies -- and aeons upon aeons perfecting them, nor
-do intend to shell out tens of dollars annually for what I can do
-gratis.
 
 * Copying
 
